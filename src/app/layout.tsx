@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import Link from 'next/link';
-import Nav from './nav/page';
+import Nav from '../components/Nav';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,8 +19,11 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className={inter.className}>
-        <Nav />
+        <h1>
+          <Link href="/">렌더링 패턴 4가지 페이지</Link>
+        </h1>
         {children}
+        <Nav />
       </body>
     </html>
   );
