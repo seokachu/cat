@@ -22,8 +22,8 @@ export default function RootLayout({
         <h1>
           <Link href="/">렌더링 패턴 4가지 페이지</Link>
         </h1>
-        {children}
         <Nav />
+        {children}
       </body>
     </html>
   );

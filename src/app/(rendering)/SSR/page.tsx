@@ -8,7 +8,7 @@ async function SSR() {
 
   return (
     <div>
-      <h1 className="bg-indigo-100 ... w-48">SSR</h1>
+      <h1>SSR</h1>
       <div>
         <p>fact : {data.fact}</p>
         <p>length : {data.length}</p>

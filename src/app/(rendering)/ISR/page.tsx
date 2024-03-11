@@ -9,6 +9,7 @@ const ISR = async () => {
   const data = await response.json();
   return (
     <div>
+      <h1>ISR</h1>
       <p>fact : {data.fact}</p>
       <p>length : {data.length}</p>
     </div>
