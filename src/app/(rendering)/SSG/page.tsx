@@ -9,7 +9,7 @@ const SSG = async () => {
   const data = await response.json();
 
   return (
-    <div>
+    <div className="text-center">
       <h1>SSG</h1>
       <p>{data.fact}</p>
       <p>{data.length}</p>

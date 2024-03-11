@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className={inter.className}>
-        <h1>
+        <h1 className="text-center text-fuchsia-500 font-bold text-2xl py-10">
           <Link href="/">렌더링 패턴 4가지 페이지</Link>
         </h1>
         <Nav />

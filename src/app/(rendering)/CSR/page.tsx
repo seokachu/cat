@@ -19,7 +19,7 @@ function CSR() {
     return <div>Loading...</div>;
   }
   return (
-    <div>
+    <div className="text-center">
       <h1>CSR</h1>
       <div>
         <p>fact : {cat.fact}</p>

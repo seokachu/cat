@@ -8,7 +8,7 @@ const ISR = async () => {
   });
   const data = await response.json();
   return (
-    <div>
+    <div className="text-center">
       <h1>ISR</h1>
       <p>fact : {data.fact}</p>
       <p>length : {data.length}</p>

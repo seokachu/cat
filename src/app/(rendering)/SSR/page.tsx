@@ -7,7 +7,7 @@ async function SSR() {
   const data = await response.json();
 
   return (
-    <div>
+    <div className="text-center">
       <h1>SSR</h1>
       <div>
         <p>fact : {data.fact}</p>
